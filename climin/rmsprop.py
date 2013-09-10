@@ -80,5 +80,4 @@ class RmsProp(Minimizer):
             yield dict(args=args, kwargs=kwargs, gradient=gradient,
                        n_iter=i,
                        moving_mean_squared=moving_mean_squared,
-                       step=step_m1,
-                       step_rate=step_rate)
+                       step=step_m1)
